@@ -1,0 +1,16 @@
+/* Establecer el contenedor como un grid con tres columnas y tres filas */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px; 
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
